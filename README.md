@@ -1,1 +1,1 @@
-# PiHAT-Cellular-Telemetry
+This repository contains production-ready Python telemetry scripts for Raspberry Pi 4G LTE HATs, specifically targeting the Quectel EC200 and SIMCom A7672S modules. The codebase provides robust implementations for UART and USB Type-C communication, Real-Time Clock (RTC) synchronization, and MQTT payload delivery. It includes advanced hardware-recovery logic and Location-Based Services (LBS) fallbacks to maintain stable IoT operations in environments prone to power fluctuations or poor satellite visibility.
