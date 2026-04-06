@@ -1,1 +1,1 @@
-Scripts optimized for the PiHAT A7672S (LASE variant), featuring aggressive auto-recovery logic and software-based Location-Based Services (LBS) triangulation.
+Scripts tailored for the PiHAT EC200, focusing on high-speed Type-C data transfer and its dedicated onboard GNSS hardware.
