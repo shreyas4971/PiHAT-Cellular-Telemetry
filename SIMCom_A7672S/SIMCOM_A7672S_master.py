@@ -25,7 +25,7 @@ from datetime import datetime
 
 EN_PIN = 22
 PWR_PIN = 17
-RST_PIN = 27  # Change to 21 if using your older UART board layout
+RST_PIN = 27  
 SIM_SEL_PIN = 5
 
 # ==========================================================
@@ -105,7 +105,7 @@ def setup_hardware():
     
     GPIO.output(EN_PIN, GPIO.LOW)
     GPIO.output(PWR_PIN, GPIO.LOW)
-    GPIO.output(SIM_SEL_PIN, GPIO.LOW) 
+    GPIO.output(SIM_SEL_PIN, GPIO.LOW) # Keep High for eSIM
 
     # SIMCOM A7672S RESET is Active-LOW
     GPIO.output(RST_PIN, GPIO.HIGH)
