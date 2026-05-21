@@ -1,4 +1,10 @@
-This repository contains production-ready Python telemetry frameworks for **Raspberry Pi 4G LTE HATs**, specifically targeting the Quectel EC200U and SIMCom A7672S modules. The codebase provides heavily throttled, state-machine-driven implementations for UART and auto-detecting USB Type-C communication, DS3231 Real-Time Clock (RTC) synchronization, and resilient MQTT payload delivery. It features dedicated deployment architectures tailored for Physical SIM configurations, onboard eSIM routing (via GPIO multiplexing), and active-antenna GNSS (GPS) tracking. To maintain stable IoT operations in volatile environments, the scripts include advanced hardware-recovery tripwires, dynamic APN toggling, strict AT command buffer management to prevent baseband crashes, and automated MQTT socket rebuilds.
+#PiHAT-LTE (Industrial Telemetry & GNSS)
+
+This repository contains the official Python driver scripts, test utilities, and automation frameworks for the WIN-PiHAT 4G LTE series. Designed to provide robust, cloud-connected cellular backhauls for industrial environments, these HATs specifically target the Quectel EC200U and SIMCom A7672S basebands.
+
+The codebase provides heavily throttled, deployable examples for UART and auto-detecting USB Type-C communication, Real-Time Clock (RTC) synchronization, and resilient MQTT payload delivery. It features dedicated deployment architectures tailored for Physical SIM configurations, onboard eSIM routing (via GPIO multiplexing), and active-antenna GNSS (GPS) tracking.
+
+To maintain stable IoT operations in volatile field deployments, the scripts include advanced hardware-recovery tripwires, dynamic APN toggling, strict AT command buffer management to prevent baseband crashes, and automated MQTT socket rebuilds.
 
 ---
 
