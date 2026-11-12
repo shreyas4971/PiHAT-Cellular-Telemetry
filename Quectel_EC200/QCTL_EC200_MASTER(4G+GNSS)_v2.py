@@ -8,7 +8,7 @@
 # - Automatic SIM & network detection
 # - PDP auto activation (Dynamic APN)
 # - MQTT communication
-# - RTC timestamp integration (DS3231)
+# - RTC timestamp integration (PCF8563)
 # - Hardware reset recovery
 # - Step-wise state machine architecture
 # ==========================================================
